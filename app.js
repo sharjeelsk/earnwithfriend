@@ -10,18 +10,7 @@ app.use(cors())
 const userRoute = require("./api/routes/user")
 const adminRoute = require("./api/routes/admin")
 
-app.use(function (req, res, next) {
-    res.header('Access-Control-Allow-Origin', '*');
 
-    res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-
-    res.header('Access-Control-Allow-Headers', 'Origin,X-Requested-With,Content-Type,Accept');
-
-    res.header('Access-Control-Allow-Credentials', true);
-    res.header("preflightContinue", false)
-  res.header("optionsSuccessStatus",204)
-    next();
-  });
 
 
 mongoose.connect("mongodb+srv://admin:admin@123@cluster0.abisk.mongodb.net/Earnwithfriends?retryWrites=true&w=majority", {

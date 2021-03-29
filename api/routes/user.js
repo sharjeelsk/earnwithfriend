@@ -23,20 +23,7 @@ function currentDate(){
 
 // date
 
-router.use(function (req, res, next) {
 
-
-    res.Header('Access-Control-Allow-Origin', '*');
-
-    res.Header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-
-    res.Header('Access-Control-Allow-Headers', 'Origin,X-Requested-With,Content-Type,Accept');
-
-    res.Header('Access-Control-Allow-Credentials', true);
-    res.Header("preflightContinue", false)
-  res.Header("optionsSuccessStatus",204)
-    next();
-  })
 
 
 

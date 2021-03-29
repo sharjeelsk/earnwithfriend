@@ -14,7 +14,7 @@ const Login = (props) => {
     let submit = async values => {
       // print the form values to the console
         props.setLoading(true)
-      const response = await axios.post("https://earnwithfriendsapi.herokuapp.com/user/login",{
+      const response = await axios.post("http://localhost:3002/user/login",{
           email:values.email,
           Password:values.Password
       })
