@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.916" y1="0.323" x2="0" y2="0.759" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbf00"/>
+      <stop offset="1" stop-color="#ffeeb8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.966" y1="0.076" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbf00"/>
+      <stop offset="0.957" stop-color="#fffaea"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1920" height="1080" fill="#f0a500"/>
+    <g id="Group_4" data-name="Group 4">
+      <g id="Group_3" data-name="Group 3">
+        <g id="Group_2" data-name="Group 2">
+          <g id="Group_1" data-name="Group 1">
+            <circle id="Ellipse_1" data-name="Ellipse 1" cx="167" cy="167" r="167" transform="translate(217 939)" fill="url(#linear-gradient)"/>
+            <circle id="Ellipse_2" data-name="Ellipse 2" cx="184" cy="184" r="184" transform="translate(-151 766)" fill="url(#linear-gradient)"/>
+            <circle id="Ellipse_3" data-name="Ellipse 3" cx="89" cy="89" r="89" transform="translate(1629 969)" fill="url(#linear-gradient)"/>
+            <circle id="Ellipse_4" data-name="Ellipse 4" cx="89" cy="89" r="89" transform="translate(105 956)" fill="url(#linear-gradient)"/>
+            <circle id="Ellipse_5" data-name="Ellipse 5" cx="89" cy="89" r="89" transform="translate(1773 -34)" fill="url(#linear-gradient)"/>
+            <rect id="Rectangle_1" data-name="Rectangle 1" width="344" height="344" rx="86" transform="translate(1862 647.51) rotate(45)" fill="url(#linear-gradient-6)"/>
+            <rect id="Rectangle_2" data-name="Rectangle 2" width="344" height="344" rx="86" transform="translate(337.245 -243.245) rotate(45)" fill="url(#linear-gradient-6)"/>
+            <rect id="Rectangle_3" data-name="Rectangle 3" width="344" height="344" rx="86" transform="translate(33.755 -158.979) rotate(45)" fill="url(#linear-gradient-6)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

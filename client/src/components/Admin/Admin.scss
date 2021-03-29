@@ -1,0 +1,42 @@
+@import "../Home.scss";
+
+.adminh1{
+    margin: 3% 0;
+    font-family: $primaryfont;
+    font-size: 4rem;
+}
+.ref{
+    margin:0 15%;
+}
+
+.spanlist{
+    color:$quaternary-color;
+    font-weight: bold;
+
+}
+
+.headlist{
+    font-family: $secondaryfont;
+}
+
+.listdetailrow{
+    margin: 0 auto;
+    width: 40%;
+}
+
+.h1list{
+    font-family: $primaryfont;
+    font-size: 4rem;
+    text-align: center;
+    color:$quaternary-color;
+    margin-top: 2%;
+}
+.deletetd{
+    cursor: pointer;
+    color:$pentanary-color;
+}
+.deletetd:hover{
+    color:$quaternary-color;
+    text-decoration: underline;
+    transition: .2s;
+}

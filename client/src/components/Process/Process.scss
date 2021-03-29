@@ -1,0 +1,43 @@
+@import "../Home.scss";
+
+
+.img1{
+    width:25%;
+    filter: contrast(1.5);
+    filter:brightness(-50);
+}
+
+.img2{
+    width:25%;
+    filter: contrast(1);
+}
+
+.img3{
+    width:25%;
+    filter: contrast(1.5);
+    filter:brightness(-50);
+}
+
+.processdiv{
+    text-align: center;
+}
+
+.processheader{
+    margin-top:3%;
+    font-family: $secondaryfont;
+    font-weight: 900;
+}
+.processpara{
+    font-family:$secondaryfont;
+}
+
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}

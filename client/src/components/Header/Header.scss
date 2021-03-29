@@ -1,0 +1,72 @@
+@import "../Home.scss";
+img{
+    width:5vw;
+ }
+ 
+ .logoimg{
+     width:3vw;
+ }
+ 
+ .navbarclass{
+     font-size:1.25rem;
+     margin: 0 15%;
+ }
+ .navbar-nav li{
+     padding:0 .25rem;
+ }
+ 
+ .navbar{
+     background-color: inherit !important;
+ }
+
+ #nav{
+     color:goldenrod;
+ }
+
+ .logo{
+     filter:contrast(1.5)
+ }
+
+.nav-link{
+    color:goldenrod ;
+    font-family: $secondaryfont;
+    font-weight: 800;
+}
+.nav-link.active{
+    color:gold !important;
+
+}
+
+li{
+    color:purple;
+}
+button:focus{
+    outline: none;
+}
+.login{
+    padding: 2% 10%;
+}
+.login:hover{
+    text-decoration: none;
+    color:gold
+}
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .logo{
+        height:50%;
+        width:60px;
+    }
+
+}
+@media (max-width: 576px) {
+    .logo{
+        height:50%;
+        width:60px;
+    }
+    .login .btn-grad{
+        padding: 1%;
+    }
+}

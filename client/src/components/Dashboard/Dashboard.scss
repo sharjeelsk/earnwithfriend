@@ -1,0 +1,191 @@
+@import "../Home.scss";
+body{
+    background-color: $primary-color;
+    color:$pentanary-color;
+}
+h1{
+    color:$pentanary-color;
+}
+
+.dashh2{
+    font-family: $secondaryfont;
+}
+.dashicons{
+    height: 6vh;
+    width: 70%;
+}
+.dashspan{
+    color:lightblue;
+    cursor:pointer;
+}
+.dashspan:hover{
+color:blue;
+transition: .3s;
+}
+.dashp{
+    font-family: $primaryfont;
+    font-size: 2.5rem;
+    color:gold;
+
+}
+.dashhead{
+    height: 5vh;
+    background-color: $quaternary-color;
+}
+.icon{
+    position: absolute;
+    left:2%;
+    height: 5vh;
+    width: 5%;
+}
+.iconrotated{
+    position: absolute;
+    left:3%;
+    height: 5vh;
+    width: 5%;
+    z-index: 3;
+    fill:$quaternary-color !important;
+}
+
+.dashmenu{
+    ul{
+        display: none;
+    }
+    z-index: 4;
+
+}
+
+.dashprof{
+    height: 20vh;
+    width: 12vw;
+    border-radius: 300px;
+    border: 2px solid $quaternary-color;
+}
+.hractive{
+    border:2px solid $quaternary-color;
+    border-radius: 100px;
+}
+.lihr{
+    border: .1px solid $quaternary-color;
+    border-radius: 20px;
+}
+.dashmenuactive{
+    z-index: 2;
+    position: absolute;
+    background-color: $primary-color;
+    width: 20%;
+    height: 100vh;
+    padding: 2% 1%;
+    border-right: 2px solid $quaternary-color;
+    transition: .2s;
+    ul{
+        display: block;
+        margin: 10% 2%;
+        text-align: left;
+        li{
+        color:$quaternary-color;
+        list-style-type:none;
+        font-family: $secondaryfont;
+        font-weight: 500;
+        margin: 10% 0;
+        font-size: 1.5rem;
+            }
+        li:hover{
+            cursor: pointer;
+            color:$pentanary-color;
+            transition: 0.2s;
+        }
+    }
+}
+
+.hr{
+    display: none;
+}
+
+.hractive{
+    display: block;
+    color:white;
+}
+
+.dashh1{
+    text-align: center;
+    font-family: $primaryfont;
+    font-size: 4rem;
+    margin:2% 0;
+}
+
+.dashtable{
+    margin: 0 30%;
+}
+
+.pngcolms{
+    margin:3% 0 1% 0;
+}
+
+.pngcolms2{
+margin:0 0 10% 0;
+}
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+   
+
+}
+@media (max-width: 576px) {
+    .dashh1{
+        font-size: 1.7rem;
+    }
+    .pngcolms{
+        font-size: 1.7rem;
+        margin:20% 0 5% 0;
+    }
+    .dashh2{
+        font-size: 1.2rem;
+    }
+    .pngcolms2{
+        margin:0 0 30% 0;
+        }
+        .dashmenuactive{
+            font-size: 1.2rem;
+            z-index: 2;
+            position: absolute;
+            background-color: $primary-color;
+            width: 50%;
+            height: 100vh;
+            padding: 2% 1%;
+            border-right: 2px solid $quaternary-color;
+            transition: .2s;
+            ul{
+                display: block;
+                margin: 10% 2%;
+                text-align: left;
+                li{
+                color:$quaternary-color;
+                list-style-type:none;
+                font-family: $secondaryfont;
+                font-weight: 500;
+                margin: 10% 0;
+                font-size: 1.2rem;
+                    }
+                li:hover{
+                    cursor: pointer;
+                    color:$pentanary-color;
+                    transition: 0.2s;
+                }
+            }
+        }
+        .iconrotated{
+            position: absolute;
+            left:3%;
+            height: 5vh;
+            width: 5%;
+            z-index: 3;
+            fill:$quaternary-color !important;
+        }
+        .hractive{
+            margin-top: 15%;
+        }
+        
+}

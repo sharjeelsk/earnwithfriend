@@ -1,0 +1,153 @@
+@import "../App.scss";
+
+p{
+  font-family: $secondaryfont;  
+  color:$pentanary-color;
+}
+h1 h2 h3 h4{
+  color:$quaternary-color;
+}
+.homeseconddiv{
+    margin-top: 5%;
+    padding-bottom: 2%;
+    background: url("../Images/Web\ 1920\ –\ 1.svg");
+    background-size: cover;
+   p{ color:black !important;}
+   h3{color:black !important;}
+   h2{color:black !important;}
+}
+.hometopdiv{
+    text-align: center;
+    height: 50vh;
+   background:#323232;// background:linear-gradient(to bottom, gold 50%, #0000 80%);
+  
+}
+.header{
+    font-family: $primaryfont;
+    color:$quaternary-color;
+    
+}
+.head1{
+    font-size: 5rem;
+}
+
+.subheader{
+    font-family: $secondaryfont;
+    width: 50%;
+    margin:0 auto;
+}
+.btn-grad {background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%, #FF8008  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: black;            
+   box-shadow: 0 0 25px black;
+   border-radius: 10px;
+   outline: none;
+   border:none;
+   font-family: $secondaryfont;
+   font-weight: 800;
+   font-size: 1.5rem;
+}
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: black;
+   text-decoration: none;
+ }
+
+.butt{
+    background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%, #FF8008  100%);
+    color:$tertiary-color;
+    font-size: 1.5rem;
+    font-family: $secondaryfont;
+    border: 2px solid gold;
+    border-radius: 20px;
+
+   
+}
+.butt:hover{
+    background:goldenrod;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.butt:focus{
+    outline: none;
+}
+
+.head3{
+    padding: 6% 0 5% 0;
+    text-align: center;
+    font-size: 3rem;
+
+}
+span{
+    font-family: $secondaryfont;
+    color:black;
+}
+.head4{
+    font-family: $secondaryfont;
+    font-weight: 900;
+    color:$quaternary-color;
+
+}
+
+.multiples{
+    font-family: $primaryfont;
+}
+.subhomeseconddiv{
+    margin: 0 25% 5% 25%;
+}
+
+.head5{
+    font-family: $primaryfont;
+    font-size: 3rem;
+    margin-top: 20%;
+    text-align: center;
+    color:$quaternary-color;
+}
+.card{
+    background: $primary-color !important;
+    color:#cf7500;
+}
+
+.content{
+    color:#cf7500;
+}
+
+
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .head1{
+        
+        font-size: 3rem;     
+    }
+    .head2{
+        margin: 4% auto;
+             
+    }
+
+}
+@media (max-width: 576px) {
+    .head1{
+    font-size: 3rem;        
+    }
+    .head2{
+        
+        width:60%;    
+    }
+    .butt{
+      margin: 4% auto;
+    }
+    .subheader{
+        font-size: 1.2rem;
+    }
+}

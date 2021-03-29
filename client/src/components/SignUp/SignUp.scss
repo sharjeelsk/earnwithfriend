@@ -1,0 +1,42 @@
+@import "../Home.scss";
+
+.signupdiv{
+    width:50%;
+    margin:3% auto;
+    padding:4% 8%;
+    box-shadow: 1px 1px 10px gold, -1px -1px 10px lightyellow;
+    background: linear-gradient(to bottom right, $primary-color 90%, $quaternary-color 5%);
+}
+.signupheader{
+    font-family: $primaryfont;
+    display: block;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.dropdown{
+    background-color: white;
+    padding: 2% 10px;
+    display: block;
+}
+
+input:focus{
+    outline:2px solid green;
+}
+.signuplabel{
+    font-family: $secondaryfont;
+    font-weight: 800;
+    margin-top: 4%;
+}
+
+.signupinput{
+    border: none;
+    width:100%;
+    display: block;
+    padding: 3%;
+    border-radius: 5px;
+    font-family: $secondaryfont;
+}
+
